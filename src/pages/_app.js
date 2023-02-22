@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout } from './Components'
-import 'bootstrap/dist/css/bootstrap.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../../css/style.css'
 import '../../css/Button.css'
 

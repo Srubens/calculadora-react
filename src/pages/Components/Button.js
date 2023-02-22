@@ -22,7 +22,15 @@ const Button = ({ children, onClick, isInput }) =>{
                 isInput ? (
                     <div className="input">{children}</div>
                 ) : (
-                    <div className={`botao-wrapper botao ${ehIgual(children) ? "btn-igual" : null} ${ehNum(children) ? null : "operacao"} `} onClick={() => onClick(children)} >{children}</div>
+                    <div 
+                    className={
+                        `botao-wrapper botao 
+                        ${ehIgual(children) ? "btn-igual" : null} 
+                        ${ehNum(children) ? null : "operacao" }`} 
+                     onClick={() => onClick(children)}
+                     >
+                        {children}
+                    </div>
                 )
             }
         </>

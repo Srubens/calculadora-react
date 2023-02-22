@@ -58,7 +58,7 @@ const Index = () =>{
                         <Button onClick={insereOperacao} >+</Button>
                     </div>
                     <div className="linha">
-                        <Button >.</Button>
+                        <Button onClick={insereOperacao} >.</Button>
                         <Button onClick={insereNum} >0</Button>
                         <Button onClick={ () => setInput("") } >C</Button>
                         <Button onClick={insereOperacao} >-</Button>
