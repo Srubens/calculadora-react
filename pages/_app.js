@@ -1,8 +1,8 @@
 import React from 'react'
 import { Layout } from './Components'
-import '../../node_modules/bootstrap/dist/css/bootstrap.css'
-import '../../css/style.css'
-import '../../css/Button.css'
+// import 'bootstrap/dist/css/bootstrap.css'
+// import '../css/style.css'
+// import '../css/Button.css'
 
 const MyApp = ({Component, pageProps}) =>{
     return(
